@@ -199,7 +199,7 @@ void drawWhiteChar() //white left body
 void segment(float x, float y, float a, int handLength) {
   pushMatrix();
   translate(x, y);
-  rotate(a);
+  rotate(-a);
   line(0, 0, handLength, 0);
   popMatrix();
 }
